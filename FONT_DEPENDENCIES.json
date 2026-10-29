@@ -38,5 +38,15 @@
     "file": "ibm-plex-mono-1.ttf",
     "url": "https://fonts.gstatic.com/s/ibmplexmono/v20/-F6qfjptAgt5VM-kVkqdyU8n3twJ8lc.ttf",
     "sha256": "4fc14a73ca53ba9d32fd759ae1ca1a3133326035d0dd337862b3ee1633cc156e"
+  },
+  {
+    "file": "public-sans-0.ttf",
+    "url": "https://fonts.gstatic.com/s/publicsans/v21/ijwGs572Xtc6ZYQws9YVwllKVG8qX1oyOymuFpm5ww.ttf",
+    "sha256": "d8a092f98db3ae7c7f01e73f8f23aaaec97f16c325765042ae5a052f4d8de546"
+  },
+  {
+    "file": "public-sans-1.ttf",
+    "url": "https://fonts.gstatic.com/s/publicsans/v21/ijwGs572Xtc6ZYQws9YVwllKVG8qX1oyOymuyJ65ww.ttf",
+    "sha256": "b463fd85acc683d2bb5066f222c0a56152ceab1301e80051bcc65755db6872f0"
   }
 ]

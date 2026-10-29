@@ -7,4 +7,9 @@ Original license notices are retained in the vendored script headers.
 Instrument Serif — SIL Open Font License 1.1
 DM Sans — SIL Open Font License 1.1
 IBM Plex Mono — SIL Open Font License 1.1
+Public Sans — SIL Open Font License 1.1
 Font sources and file hashes are recorded in FONT_DEPENDENCIES.json.
+
+Gift Connect logo and icon: Gift Connect branding assets, used to identify the
+project in Jeffrey Shorthill's portfolio. App screenshot: official App Store
+listing for Gift-Connect Parenting Suite, app ID 6741826572.

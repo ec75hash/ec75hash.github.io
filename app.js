@@ -24,13 +24,29 @@
       const isOrigin = line.classList.contains('connection-origin');
       const isActive = line.classList.contains(`connection-${activeRole}`);
       const stroke = isActive || isOrigin ? '#404fed' : '#a8b1ba';
-      const opacity = isActive || isOrigin ? 1 : .38;
+      const opacity = isActive || isOrigin ? 1 : .16;
+      const width = isActive ? 3.2 : (isOrigin ? 2 : 1.2);
       if (animate && gsapReady && allowMotion) {
-        gsap.to(line, { attr: { stroke }, opacity, duration: .5, overwrite: true });
+        gsap.to(line, { attr: { stroke, 'stroke-width': width }, opacity, duration: .5, overwrite: true });
       } else {
         if (gsapReady) gsap.killTweensOf(line);
         line.setAttribute('stroke', stroke);
+        line.setAttribute('stroke-width', width);
         line.style.opacity = opacity;
+      }
+    });
+    document.querySelectorAll('.node-end').forEach(node => {
+      const selected = node.classList.contains(`node-${activeRole}`);
+      const fill = selected ? '#404fed' : '#f7f8f2';
+      const radius = selected ? 10 : 7;
+      const opacity = selected ? 1 : .35;
+      if (animate && gsapReady && allowMotion) {
+        gsap.to(node, { attr: { fill, r: radius }, opacity, duration: .5, overwrite: true });
+      } else {
+        if (gsapReady) gsap.killTweensOf(node);
+        node.setAttribute('fill', fill);
+        node.setAttribute('r', radius);
+        node.style.opacity = opacity;
       }
     });
     roleButtons.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.role === activeRole)));
