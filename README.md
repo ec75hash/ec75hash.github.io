@@ -22,12 +22,30 @@ GitHub Pages publishes the root of `main`.
 
 - [Versioned research dataset](https://huggingface.co/datasets/ec75hash/copy-blocks-qwen/tree/v0.3.0)
 - [Code mirror](https://github.com/ec75hash/copy-blocks-qwen/tree/v0.3.0-mirror)
+- [Earlier survey archive, v0.1.2](https://zenodo.org/records/23546828)
 - [Neuron-response study](https://huggingface.co/datasets/ec75hash/copy-blocks-qwen/blob/v0.3.0/studies/qwen3_response/README.md)
+- [Composition-sensitive register readouts](https://zenodo.org/records/21213596)
+- [In-context availability, v1.2](https://zenodo.org/records/23546831)
+- [In-context availability code and methods](https://github.com/ec75hash/in-context-availability-moe-routing)
+- [Cross-checkpoint Jacobian lens transfer](https://zenodo.org/records/22133736)
+- [Lens-transfer code and evaluations](https://github.com/ec75hash/jacobian-lens-transfer-qwen36-38)
+- [Expert specialization during generation, v1.2](https://zenodo.org/records/22236999)
+- [Specialization code and evidence](https://github.com/ec75hash/paper-expert-specialization-generation)
+- [Dialect-Marked Response Audit, v4.3](https://zenodo.org/records/22291463)
+- [DMRA methods and artifacts](https://github.com/ec75hash/dmra-paper)
+- [Distributed safety routing, v1.2](https://zenodo.org/records/22088890)
+- [Refusal-routing code and evidence](https://github.com/ec75hash/distributed-safety-routing)
+- [Full publication index](https://github.com/ec75hash/ec75hash/blob/main/PUBLICATIONS.md)
 
 The neuron-response figure is a verbatim copy of the research's retained
-`neuron_pairing.svg`. The hero diagram is conceptual, and is labeled as an
-illustration rather than measured data. The 34-checkpoint survey and the
+`neuron_pairing.svg`. The 34-checkpoint survey and the
 288-pair Qwen3 response sample are separate studies.
+
+Selected Work includes all six studies cited in the primary profile README,
+alongside the motivating E114 paper and the separate weight/response studies.
+The Zenodo survey archive is an earlier snapshot; the current weight/response
+release is pinned independently at v0.3.0. E114 links to its public paper because
+its primary-account code repository is private.
 
 The site presents current research interests as questions. It does not assert
 a verified temporal training record or a common ancestry across model families.
